@@ -16,6 +16,7 @@ class OptionContract {
   });
 
   factory OptionContract.fromJson(Map<String, dynamic> json) {
+    
     return OptionContract(
       strikePrice: json['strike_price'],
       type: json['type'],
