@@ -39,7 +39,7 @@ class RiskRewardGraph extends StatelessWidget {
                 return Text(value.toInt().toString());
               },
             ),
-     ),
+         ),
         ),
 
         borderData: FlBorderData(show: true),

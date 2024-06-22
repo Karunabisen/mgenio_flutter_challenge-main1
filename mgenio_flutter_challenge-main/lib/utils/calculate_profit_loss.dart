@@ -11,6 +11,7 @@ double calculateProfitLoss(double underlyingPrice, List<OptionContract> contract
     } else if (contract.type == 'Put') {
       intrinsicValue = max(0, contract.strikePrice - underlyingPrice);
     }
+    
     double contractPrice = (contract.bid + contract.ask) / 2;
     double position = contract.longShort == 'long' ? 1 : -1;
     totalProfitLoss += position * (intrinsicValue - contractPrice);
