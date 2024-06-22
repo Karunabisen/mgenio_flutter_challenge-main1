@@ -19,3 +19,4 @@ double calculateProfitLoss(double underlyingPrice, List<OptionContract> contract
 
   return totalProfitLoss;
 }
+

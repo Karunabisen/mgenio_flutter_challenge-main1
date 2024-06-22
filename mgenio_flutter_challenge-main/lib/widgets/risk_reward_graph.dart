@@ -59,3 +59,4 @@ class RiskRewardGraph extends StatelessWidget {
     return dataPoints;
   }
 }
+
